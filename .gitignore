@@ -1,0 +1,21 @@
+# Ignore Python virtual environment
+venv/
+.myenv/
+
+# Ignore data files
+books.csv
+issued_books.csv
+book_images/
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Streamlit secrets
+.streamlit/secrets.toml
